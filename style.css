@@ -1,0 +1,60 @@
+html,
+body {
+    height: 0vh;
+    background-image: url(https://64.media.tumblr.com/4b6ca015338a614cd292bce9cfa5ed2e/9282a8a64550d276-5f/s540x810/f86fb06e0fff459e983bcfe90dfb7d3fec0a88d6.gifv);
+    background-size: 120%;
+}
+
+.container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 22%;
+}
+
+.container1 {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 20%;
+}
+
+.carta {
+    perspective: 1000px;
+    height: 200px;
+    width: 170px;
+    position: relative;
+    margin: 15px;
+}
+
+.carta img {
+    width: 100%;
+}
+
+.carta .verso {
+    position: absolute;
+    transform: rotateY(0deg);
+    backface-visibility: hidden;
+    transition: transform 0.4s linear;
+}
+
+.carta .frente {
+    position: absolute;
+    transform: rotateY(180deg);
+    backface-visibility: hidden;
+    transition: transform 0.4s linear;
+}
+
+.carta:hover .verso {
+    transform: rotateY(-180deg);
+    cursor: pointer;
+}
+
+.carta:hover .frente {
+    transform: rotateY(0deg);
+    cursor: pointer;
+}
