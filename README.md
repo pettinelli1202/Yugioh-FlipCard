@@ -1,4 +1,15 @@
-# Yugioh-FlipCard
+# Sobre a aplicação
+Yu-gi-oh flip card é uma página web estática, onde aplico um flip 3D animado de uma imagem que possibilita realizar um giro sobre o elemento 'carta'.
 
-O efeito flipcard com css possibilitou realizar um giro sobre o elemento 'carta'. Além disso utilizamos para marcar e ordenar com HTML, assim disponibilizando todo o componente base da web.
-Ademais, apliquei configurações básicas da tag meta para disponibilizar sem probabilidades de erros de dimensão em dispositivos mobile e internet explorer ou outros tipos de dispositivos.
+# Layout web
+![Desktop](https://i.ibb.co/K6B8c5h/exodiapage.png)
+
+# Tecnologias aplicadas
+
+## Front-end 
+- Html / Css 
+
+# Desenvolvedor
+Lucas William
+
+https://www.linkedin.com/in/lucas-pettinelli/
